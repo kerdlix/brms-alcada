@@ -219,6 +219,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -245,7 +246,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -279,7 +280,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">3000.0</valueNumeric>
+        <valueNumeric class="double">5700.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -293,6 +294,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -319,7 +321,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -347,13 +349,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">3000.0</valueNumeric>
+        <valueNumeric class="double">5700.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">4500.0</valueNumeric>
+        <valueNumeric class="double">6750.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -367,6 +369,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -393,7 +396,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -421,13 +424,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">4500.0</valueNumeric>
+        <valueNumeric class="double">6750.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">6000.0</valueNumeric>
+        <valueNumeric class="double">7500.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -441,6 +444,7 @@
     <list>
       <value>
         <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -467,7 +471,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -501,7 +505,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1536.0</valueNumeric>
+        <valueNumeric class="double">2918.4</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -515,6 +519,7 @@
     <list>
       <value>
         <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -541,7 +546,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -569,13 +574,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1536.0</valueNumeric>
+        <valueNumeric class="double">2918.4</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1920.0</valueNumeric>
+        <valueNumeric class="double">3648.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -589,6 +594,7 @@
     <list>
       <value>
         <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -615,7 +621,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -643,13 +649,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1920.0</valueNumeric>
+        <valueNumeric class="double">3648.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">2400.0</valueNumeric>
+        <valueNumeric class="double">4560.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -663,6 +669,7 @@
     <list>
       <value>
         <valueNumeric class="int">7</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -689,7 +696,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -723,7 +730,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">786.43</valueNumeric>
+        <valueNumeric class="double">1494.22</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -737,6 +744,7 @@
     <list>
       <value>
         <valueNumeric class="int">8</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -763,7 +771,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -791,13 +799,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">786.43</valueNumeric>
+        <valueNumeric class="double">1494.22</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">983.04</valueNumeric>
+        <valueNumeric class="double">1867.78</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -811,6 +819,7 @@
     <list>
       <value>
         <valueNumeric class="int">9</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -837,7 +846,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -865,13 +874,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">983.04</valueNumeric>
+        <valueNumeric class="double">1867.78</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1228.8</valueNumeric>
+        <valueNumeric class="double">2334.72</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -885,6 +894,7 @@
     <list>
       <value>
         <valueNumeric class="int">10</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -911,7 +921,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -945,7 +955,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">402.65</valueNumeric>
+        <valueNumeric class="double">765.04</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -959,6 +969,7 @@
     <list>
       <value>
         <valueNumeric class="int">11</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -985,7 +996,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1013,13 +1024,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">402.65</valueNumeric>
+        <valueNumeric class="double">765.04</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">503.32</valueNumeric>
+        <valueNumeric class="double">956.3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1033,6 +1044,7 @@
     <list>
       <value>
         <valueNumeric class="int">12</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1059,7 +1071,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1087,13 +1099,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">503.32</valueNumeric>
+        <valueNumeric class="double">956.3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">629.15</valueNumeric>
+        <valueNumeric class="double">1195.38</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1107,6 +1119,7 @@
     <list>
       <value>
         <valueNumeric class="int">13</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1133,7 +1146,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1167,7 +1180,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">206.16</valueNumeric>
+        <valueNumeric class="double">391.7</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1181,6 +1194,7 @@
     <list>
       <value>
         <valueNumeric class="int">14</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1207,7 +1221,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1235,13 +1249,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">206.16</valueNumeric>
+        <valueNumeric class="double">391.7</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">257.7</valueNumeric>
+        <valueNumeric class="double">489.63</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1255,6 +1269,7 @@
     <list>
       <value>
         <valueNumeric class="int">15</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1281,7 +1296,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1309,13 +1324,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">257.7</valueNumeric>
+        <valueNumeric class="double">489.63</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">322.12</valueNumeric>
+        <valueNumeric class="double">612.03</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1329,6 +1344,7 @@
     <list>
       <value>
         <valueNumeric class="int">16</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1355,7 +1371,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1388,7 +1404,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">2700.0</valueNumeric>
+        <valueNumeric class="double">5130.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1402,6 +1418,7 @@
     <list>
       <value>
         <valueNumeric class="int">17</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1428,7 +1445,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1455,13 +1472,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">2700.0</valueNumeric>
+        <valueNumeric class="double">5130.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">4050.0</valueNumeric>
+        <valueNumeric class="double">6075.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1475,6 +1492,7 @@
     <list>
       <value>
         <valueNumeric class="int">18</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1501,7 +1519,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1528,13 +1546,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">4050.0</valueNumeric>
+        <valueNumeric class="double">6075.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">5400.0</valueNumeric>
+        <valueNumeric class="double">6750.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1548,6 +1566,7 @@
     <list>
       <value>
         <valueNumeric class="int">19</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1574,7 +1593,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1607,7 +1626,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1382.4</valueNumeric>
+        <valueNumeric class="double">2626.56</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1621,6 +1640,7 @@
     <list>
       <value>
         <valueNumeric class="int">20</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1647,7 +1667,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1674,13 +1694,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1382.4</valueNumeric>
+        <valueNumeric class="double">2626.56</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1728.0</valueNumeric>
+        <valueNumeric class="double">3283.2</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1694,6 +1714,7 @@
     <list>
       <value>
         <valueNumeric class="int">21</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1720,7 +1741,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1747,13 +1768,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1728.0</valueNumeric>
+        <valueNumeric class="double">3283.2</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">2160.0</valueNumeric>
+        <valueNumeric class="double">4104.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1767,6 +1788,7 @@
     <list>
       <value>
         <valueNumeric class="int">22</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1793,7 +1815,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1826,7 +1848,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">707.79</valueNumeric>
+        <valueNumeric class="double">1344.8</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1840,6 +1862,7 @@
     <list>
       <value>
         <valueNumeric class="int">23</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1866,7 +1889,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1893,13 +1916,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">707.79</valueNumeric>
+        <valueNumeric class="double">1344.8</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">884.74</valueNumeric>
+        <valueNumeric class="double">1681.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1913,6 +1936,7 @@
     <list>
       <value>
         <valueNumeric class="int">24</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1939,7 +1963,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1966,13 +1990,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">884.74</valueNumeric>
+        <valueNumeric class="double">1681.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">1105.92</valueNumeric>
+        <valueNumeric class="double">2101.25</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1986,6 +2010,7 @@
     <list>
       <value>
         <valueNumeric class="int">25</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2012,7 +2037,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2045,7 +2070,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">362.39</valueNumeric>
+        <valueNumeric class="double">688.54</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2059,6 +2084,7 @@
     <list>
       <value>
         <valueNumeric class="int">26</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2085,7 +2111,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2112,13 +2138,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">362.39</valueNumeric>
+        <valueNumeric class="double">688.54</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">452.98</valueNumeric>
+        <valueNumeric class="double">860.67</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2132,6 +2158,7 @@
     <list>
       <value>
         <valueNumeric class="int">27</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2158,7 +2185,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2185,13 +2212,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">452.98</valueNumeric>
+        <valueNumeric class="double">860.67</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">566.23</valueNumeric>
+        <valueNumeric class="double">1075.84</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2205,6 +2232,7 @@
     <list>
       <value>
         <valueNumeric class="int">28</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2231,7 +2259,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2264,7 +2292,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">185.54</valueNumeric>
+        <valueNumeric class="double">352.53</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2278,6 +2306,7 @@
     <list>
       <value>
         <valueNumeric class="int">29</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2304,7 +2333,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2331,13 +2360,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">185.54</valueNumeric>
+        <valueNumeric class="double">352.53</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">231.93</valueNumeric>
+        <valueNumeric class="double">440.66</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -2351,6 +2380,7 @@
     <list>
       <value>
         <valueNumeric class="int">30</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2377,7 +2407,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.PARAGUAI</valueString>
+        <valueString>Pais.EQUADOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -2404,13 +2434,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">231.93</valueNumeric>
+        <valueNumeric class="double">440.66</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">289.91</valueNumeric>
+        <valueNumeric class="double">550.83</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
