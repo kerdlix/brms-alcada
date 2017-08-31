@@ -11,14 +11,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-public-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>fuse-public-plugin-repository</id>
         <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
@@ -27,8 +19,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-plugin-repository</id>
-        <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
+        <id>fuse-public-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -43,8 +35,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fusesource.ea</id>
-        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+        <id>fuse-plugin-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/repositories/releases/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -53,6 +45,14 @@
       <metadata>
         <id>prime-repo</id>
         <url>http://repository.primefaces.org</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fusesource.ea</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
