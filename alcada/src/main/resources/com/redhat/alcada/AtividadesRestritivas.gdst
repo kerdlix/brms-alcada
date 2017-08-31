@@ -63,56 +63,11 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>País</header>
+          <header>Atividade</header>
           <constraintValueType>1</constraintValueType>
-          <factField>pais</factField>
-          <fieldType>Comparable</fieldType>
+          <factField>atividade</factField>
+          <fieldType>String</fieldType>
           <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>STRING</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>137</width>
-          <header>Classificação Cliente</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>classificacaoCliente</factField>
-          <fieldType>Comparable</fieldType>
-          <operator>==</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>NUMERIC_DOUBLE</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>Valor &gt;</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>valorOperacao</factField>
-          <fieldType>Double</fieldType>
-          <operator>&gt;</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>NUMERIC_DOUBLE</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>-1</width>
-          <header>Valor &lt;=</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>valorOperacao</factField>
-          <fieldType>Double</fieldType>
-          <operator>&lt;=</operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -131,9 +86,9 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Comitê</header>
+      <header>Comitê Restritivo</header>
       <boundName>$a</boundName>
-      <factField>_comite</factField>
+      <factField>_comiteRestritivo</factField>
       <type>Comparable</type>
       <update>true</update>
     </set-field-col52>
@@ -174,6 +129,7 @@
     <list>
       <value>
         <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -195,34 +151,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>cartas</valueString>
+        <valueString>atividadesRestritivas</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.BRASIL</valueString>
+        <valueString>GARANTIA_IMOVEL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ClassificacaoCliente.PESSIMO</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">0.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">15000.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Comite.COMITE_Z</valueString>
+        <valueString>Comite.COMITE_A</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -230,6 +169,7 @@
     <list>
       <value>
         <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -251,34 +191,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>cartas</valueString>
+        <valueString>atividadesRestritivas</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.BRASIL</valueString>
+        <valueString>TERCEIRO_SETOR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ClassificacaoCliente.PESSIMO</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">15000.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">40000.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Comite.COMITE_Y</valueString>
+        <valueString>Comite.COMITE_A</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -286,6 +209,7 @@
     <list>
       <value>
         <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -307,34 +231,17 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>cartas</valueString>
+        <valueString>atividadesRestritivas</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pais.BRASIL</valueString>
+        <valueString>GOVERNO</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ClassificacaoCliente.PESSIMO</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">40000.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">80000.0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Comite.COMITE_X</valueString>
+        <valueString>Comite.COMITE_B</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
