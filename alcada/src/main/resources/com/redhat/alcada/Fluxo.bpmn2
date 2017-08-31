@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_Jk0e0I5sEeeB3cZ9uW9qOQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_Oj-gcI5sEeeB3cZ9uW9qOQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:process id="alcada.Fluxo" drools:packageName="org.jbpm" drools:version="1.0" name="Fluxo" isExecutable="true">
     <bpmn2:startEvent id="processStartEvent" drools:selectable="true" color:background-color="#9acd32" color:border-color="#000000" color:color="#000000" name="">
       <bpmn2:extensionElements>
@@ -15,10 +15,7 @@
           <drools:metaValue><![CDATA[Cartas]]></drools:metaValue>
         </drools:metaData>
         <drools:onEntry-script scriptFormat="http://www.java.com/java">
-          <drools:script><![CDATA[System.out.println("INICIANDO FLUXO");
-System.out.println("Executando ruleflow-group: cartas");
-
-]]></drools:script>
+          <drools:script><![CDATA[System.out.println("INICIANDO FLUXO");System.out.println("Executando ruleflow-group: cartas");]]></drools:script>
         </drools:onEntry-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_BF38A45E-D180-4C25-AF87-584BF3AC7343</bpmn2:incoming>
@@ -31,6 +28,11 @@ System.out.println("Executando ruleflow-group: cartas");
           <drools:metaValue><![CDATA[Atividades Restritivas
 ]]></drools:metaValue>
         </drools:metaData>
+        <drools:onEntry-script scriptFormat="http://www.java.com/java">
+          <drools:script><![CDATA[System.out.println("Executando ruleflow-group: atividadesRestritivas");
+
+]]></drools:script>
+        </drools:onEntry-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_9ABDB7E5-91FA-4EB1-849D-1E553403B8FE</bpmn2:incoming>
       <bpmn2:outgoing>_12E489F2-7E1A-4400-909D-BF7DDE405D03</bpmn2:outgoing>
@@ -42,6 +44,11 @@ System.out.println("Executando ruleflow-group: cartas");
           <drools:metaValue><![CDATA[Calcular Comitê
 ]]></drools:metaValue>
         </drools:metaData>
+        <drools:onEntry-script scriptFormat="http://www.java.com/java">
+          <drools:script><![CDATA[System.out.println("Executando ruleflow-group: calcularComite");
+
+]]></drools:script>
+        </drools:onEntry-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_12E489F2-7E1A-4400-909D-BF7DDE405D03</bpmn2:incoming>
       <bpmn2:outgoing>_D0FDCF47-F84C-4EC3-A78B-57441929EB24</bpmn2:outgoing>
@@ -57,54 +64,54 @@ System.out.println("Executando ruleflow-group: cartas");
     </bpmn2:endEvent>
     <bpmn2:sequenceFlow id="_D0FDCF47-F84C-4EC3-A78B-57441929EB24" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_FCD20AFD-51FA-40A7-9100-BB7D9874C4FB" targetRef="_B8DD641F-C5BD-4284-A4C1-FC7582F4338B"/>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_Jk1F4I5sEeeB3cZ9uW9qOQ">
-    <bpmndi:BPMNPlane id="_Jk1F4Y5sEeeB3cZ9uW9qOQ" bpmnElement="alcada.Fluxo">
-      <bpmndi:BPMNShape id="_Jk1F4o5sEeeB3cZ9uW9qOQ" bpmnElement="processStartEvent">
+  <bpmndi:BPMNDiagram id="_Oj-gcY5sEeeB3cZ9uW9qOQ">
+    <bpmndi:BPMNPlane id="_Oj-gco5sEeeB3cZ9uW9qOQ" bpmnElement="alcada.Fluxo">
+      <bpmndi:BPMNShape id="_Oj-gc45sEeeB3cZ9uW9qOQ" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="120.0" y="165.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_Jk1F445sEeeB3cZ9uW9qOQ" bpmnElement="_917B80B8-85EC-48A1-BFF7-34ADB2D8BFB5">
+      <bpmndi:BPMNShape id="_Oj-gdI5sEeeB3cZ9uW9qOQ" bpmnElement="_917B80B8-85EC-48A1-BFF7-34ADB2D8BFB5">
         <dc:Bounds height="80.0" width="100.0" x="195.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_Jk1F5I5sEeeB3cZ9uW9qOQ" bpmnElement="_269F505F-1DAD-4DA8-9826-B6E8BFB5F8FC">
+      <bpmndi:BPMNShape id="_Oj-gdY5sEeeB3cZ9uW9qOQ" bpmnElement="_269F505F-1DAD-4DA8-9826-B6E8BFB5F8FC">
         <dc:Bounds height="80.0" width="100.0" x="340.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_Jk1F5Y5sEeeB3cZ9uW9qOQ" bpmnElement="_FCD20AFD-51FA-40A7-9100-BB7D9874C4FB">
+      <bpmndi:BPMNShape id="_Oj-gdo5sEeeB3cZ9uW9qOQ" bpmnElement="_FCD20AFD-51FA-40A7-9100-BB7D9874C4FB">
         <dc:Bounds height="80.0" width="100.0" x="485.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_Jk1F5o5sEeeB3cZ9uW9qOQ" bpmnElement="_B8DD641F-C5BD-4284-A4C1-FC7582F4338B">
+      <bpmndi:BPMNShape id="_Oj-gd45sEeeB3cZ9uW9qOQ" bpmnElement="_B8DD641F-C5BD-4284-A4C1-FC7582F4338B">
         <dc:Bounds height="28.0" width="28.0" x="630.0" y="166.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_Jk1F545sEeeB3cZ9uW9qOQ" bpmnElement="_BF38A45E-D180-4C25-AF87-584BF3AC7343" sourceElement="_Jk1F4o5sEeeB3cZ9uW9qOQ" targetElement="_Jk1F445sEeeB3cZ9uW9qOQ">
+      <bpmndi:BPMNEdge id="_Oj-geI5sEeeB3cZ9uW9qOQ" bpmnElement="_BF38A45E-D180-4C25-AF87-584BF3AC7343" sourceElement="_Oj-gc45sEeeB3cZ9uW9qOQ" targetElement="_Oj-gdI5sEeeB3cZ9uW9qOQ">
         <di:waypoint xsi:type="dc:Point" x="135.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_Jk1F6I5sEeeB3cZ9uW9qOQ" bpmnElement="_9ABDB7E5-91FA-4EB1-849D-1E553403B8FE" sourceElement="_Jk1F445sEeeB3cZ9uW9qOQ" targetElement="_Jk1F5I5sEeeB3cZ9uW9qOQ">
+      <bpmndi:BPMNEdge id="_Oj-geY5sEeeB3cZ9uW9qOQ" bpmnElement="_9ABDB7E5-91FA-4EB1-849D-1E553403B8FE" sourceElement="_Oj-gdI5sEeeB3cZ9uW9qOQ" targetElement="_Oj-gdY5sEeeB3cZ9uW9qOQ">
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="390.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_Jk1F6Y5sEeeB3cZ9uW9qOQ" bpmnElement="_12E489F2-7E1A-4400-909D-BF7DDE405D03" sourceElement="_Jk1F5I5sEeeB3cZ9uW9qOQ" targetElement="_Jk1F5Y5sEeeB3cZ9uW9qOQ">
+      <bpmndi:BPMNEdge id="_Oj-geo5sEeeB3cZ9uW9qOQ" bpmnElement="_12E489F2-7E1A-4400-909D-BF7DDE405D03" sourceElement="_Oj-gdY5sEeeB3cZ9uW9qOQ" targetElement="_Oj-gdo5sEeeB3cZ9uW9qOQ">
         <di:waypoint xsi:type="dc:Point" x="390.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="535.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_Jk1F6o5sEeeB3cZ9uW9qOQ" bpmnElement="_D0FDCF47-F84C-4EC3-A78B-57441929EB24" sourceElement="_Jk1F5Y5sEeeB3cZ9uW9qOQ" targetElement="_Jk1F5o5sEeeB3cZ9uW9qOQ">
+      <bpmndi:BPMNEdge id="_Oj-ge45sEeeB3cZ9uW9qOQ" bpmnElement="_D0FDCF47-F84C-4EC3-A78B-57441929EB24" sourceElement="_Oj-gdo5sEeeB3cZ9uW9qOQ" targetElement="_Oj-gd45sEeeB3cZ9uW9qOQ">
         <di:waypoint xsi:type="dc:Point" x="535.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="644.0" y="180.0"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_Jk1F645sEeeB3cZ9uW9qOQ" type="BPSimData">
+  <bpmn2:relationship id="_Oj-gfI5sEeeB3cZ9uW9qOQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BF38A45E-D180-4C25-AF87-584BF3AC7343" id="_Jk1F7I5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BF38A45E-D180-4C25-AF87-584BF3AC7343" id="_Oj-gfY5sEeeB3cZ9uW9qOQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FCD20AFD-51FA-40A7-9100-BB7D9874C4FB" id="_Jk1F7Y5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FCD20AFD-51FA-40A7-9100-BB7D9874C4FB" id="_Oj-gfo5sEeeB3cZ9uW9qOQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -116,7 +123,7 @@ System.out.println("Executando ruleflow-group: cartas");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_269F505F-1DAD-4DA8-9826-B6E8BFB5F8FC" id="_Jk1F7o5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_269F505F-1DAD-4DA8-9826-B6E8BFB5F8FC" id="_Oj-gf45sEeeB3cZ9uW9qOQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -128,28 +135,28 @@ System.out.println("Executando ruleflow-group: cartas");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D0FDCF47-F84C-4EC3-A78B-57441929EB24" id="_Jk1F745sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D0FDCF47-F84C-4EC3-A78B-57441929EB24" id="_Oj-ggI5sEeeB3cZ9uW9qOQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B8DD641F-C5BD-4284-A4C1-FC7582F4338B" id="_Jk1F8I5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B8DD641F-C5BD-4284-A4C1-FC7582F4338B" id="_Oj_HgI5sEeeB3cZ9uW9qOQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_12E489F2-7E1A-4400-909D-BF7DDE405D03" id="_Jk1F8Y5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_12E489F2-7E1A-4400-909D-BF7DDE405D03" id="_Oj_HgY5sEeeB3cZ9uW9qOQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_917B80B8-85EC-48A1-BFF7-34ADB2D8BFB5" id="_Jk1s8I5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_917B80B8-85EC-48A1-BFF7-34ADB2D8BFB5" id="_Oj_Hgo5sEeeB3cZ9uW9qOQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -161,7 +168,7 @@ System.out.println("Executando ruleflow-group: cartas");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_Jk1s8Y5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_Oj_Hg45sEeeB3cZ9uW9qOQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -173,7 +180,7 @@ System.out.println("Executando ruleflow-group: cartas");
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9ABDB7E5-91FA-4EB1-849D-1E553403B8FE" id="_Jk1s8o5sEeeB3cZ9uW9qOQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_9ABDB7E5-91FA-4EB1-849D-1E553403B8FE" id="_Oj_HhI5sEeeB3cZ9uW9qOQ">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
@@ -183,7 +190,7 @@ System.out.println("Executando ruleflow-group: cartas");
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_Jk0e0I5sEeeB3cZ9uW9qOQ</bpmn2:source>
-    <bpmn2:target>_Jk0e0I5sEeeB3cZ9uW9qOQ</bpmn2:target>
+    <bpmn2:source>_Oj-gcI5sEeeB3cZ9uW9qOQ</bpmn2:source>
+    <bpmn2:target>_Oj-gcI5sEeeB3cZ9uW9qOQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
