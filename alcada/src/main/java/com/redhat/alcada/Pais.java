@@ -5,6 +5,6 @@ package com.redhat.alcada;
  */
 public enum Pais {
     
-    BRASIL, PARAGUAI, EQUADOR, CHILE, COLOMBIA, EQUADOR;
+    BRASIL, PARAGUAI, EQUADOR, CHILE, COLOMBIA;
     
 } 
