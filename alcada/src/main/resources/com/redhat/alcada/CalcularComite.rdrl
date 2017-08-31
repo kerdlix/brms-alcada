@@ -5,5 +5,9 @@ import java.lang.Number;
 rule "CalcularComite"
 	dialect "mvel"
 	when
+		$a : Alcada( )
 	then
+		modify( $a ) {
+		     set_comiteFinal( $a.get_prioridadeComite() > $a.get_prioridadeComiteRestritivo()  ?  $a.get_comite() : $a.get_comiteRestritivo());
+		}
 end
