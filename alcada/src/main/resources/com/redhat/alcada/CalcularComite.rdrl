@@ -4,9 +4,6 @@ import java.lang.Number;
 
 rule "CalcularComite"
 	dialect "mvel"
-	no-loop true
-	lock-on-active true
-	ruleflow-group "calcularComite"
 	when
 		$a : Alcada( )
 	then
