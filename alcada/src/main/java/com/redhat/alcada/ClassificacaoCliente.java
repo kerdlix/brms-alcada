@@ -5,5 +5,7 @@ package com.redhat.alcada;
  */
 
 public enum ClassificacaoCliente {
+    
     OTIMO, BOM, REGULAR, RUIM, PESSIMO;
+    
 }
