@@ -223,7 +223,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Comite.COMITE_C</valueString>
+        <valueString>Comite.COMITE_Z</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -280,7 +280,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Comite.COMITE_B</valueString>
+        <valueString>Comite.COMITE_Y</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -337,7 +337,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Comite.COMITE_A</valueString>
+        <valueString>Comite.COMITE_X</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
