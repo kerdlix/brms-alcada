@@ -38,7 +38,7 @@
     </attribute-column52>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -151,7 +151,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -192,7 +192,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -233,7 +233,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -274,7 +274,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -315,7 +315,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -356,7 +356,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>calcularComite</valueString>
+        <valueString>priorizarComite</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
