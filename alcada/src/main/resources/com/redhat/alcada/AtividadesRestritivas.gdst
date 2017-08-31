@@ -62,12 +62,27 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>131</width>
           <header>Atividade</header>
           <constraintValueType>1</constraintValueType>
           <factField>atividade</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString>ClassificacaoCliente.PESSIMO</valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>172</width>
+          <header>Classificação Cliente &lt;&gt;</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>classificacaoCliente</factField>
+          <fieldType>Comparable</fieldType>
+          <operator>!=</operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -161,6 +176,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>ClassificacaoCliente.PESSIMO</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Comite.COMITE_A</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -201,6 +221,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>ClassificacaoCliente.PESSIMO</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Comite.COMITE_A</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -237,6 +262,11 @@
       </value>
       <value>
         <valueString>GOVERNO</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>ClassificacaoCliente.PESSIMO</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
