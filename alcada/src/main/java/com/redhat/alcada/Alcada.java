@@ -22,6 +22,10 @@ public class Alcada implements java.io.Serializable
 
    private com.redhat.alcada.Comite _comiteFinal;
 
+   private int _prioridadeComite;
+
+   private int _prioridadeComiteRestritivo;
+
    public Alcada()
    {
    }
@@ -117,12 +121,33 @@ public class Alcada implements java.io.Serializable
       this._comiteFinal = _comiteFinal;
    }
 
+   public int get_prioridadeComite()
+   {
+      return this._prioridadeComite;
+   }
+
+   public void set_prioridadeComite(int _prioridadeComite)
+   {
+      this._prioridadeComite = _prioridadeComite;
+   }
+
+   public int get_prioridadeComiteRestritivo()
+   {
+      return this._prioridadeComiteRestritivo;
+   }
+
+   public void set_prioridadeComiteRestritivo(int _prioridadeComiteRestritivo)
+   {
+      this._prioridadeComiteRestritivo = _prioridadeComiteRestritivo;
+   }
+
    public Alcada(com.redhat.alcada.ClassificacaoCliente classificacaoCliente,
          com.redhat.alcada.Pais pais, int vencimentoOperacao,
          double valorOperacao, boolean indicadorPossuiGarantia,
          java.lang.String atividade, com.redhat.alcada.Comite _comite,
          com.redhat.alcada.Comite _comiteRestritivo,
-         com.redhat.alcada.Comite _comiteFinal)
+         com.redhat.alcada.Comite _comiteFinal, int _prioridadeComite,
+         int _prioridadeComiteRestritivo)
    {
       this.classificacaoCliente = classificacaoCliente;
       this.pais = pais;
@@ -133,6 +158,8 @@ public class Alcada implements java.io.Serializable
       this._comite = _comite;
       this._comiteRestritivo = _comiteRestritivo;
       this._comiteFinal = _comiteFinal;
+      this._prioridadeComite = _prioridadeComite;
+      this._prioridadeComiteRestritivo = _prioridadeComiteRestritivo;
    }
 
 }
