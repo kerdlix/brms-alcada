@@ -1,0 +1,9 @@
+package com.redhat.alcada;
+
+import java.lang.Number;
+
+rule "CalcularComite"
+	dialect "mvel"
+	when
+	then
+end
