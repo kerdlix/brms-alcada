@@ -16,6 +16,8 @@ public class Alcada implements java.io.Serializable
    private boolean indicadorPossuiGarantia;
    private java.lang.String atividade;
 
+   private com.redhat.alcada.Comite _comite;
+
    public Alcada()
    {
    }
@@ -81,10 +83,20 @@ public class Alcada implements java.io.Serializable
       this.atividade = atividade;
    }
 
+   public com.redhat.alcada.Comite get_comite()
+   {
+      return this._comite;
+   }
+
+   public void set_comite(com.redhat.alcada.Comite _comite)
+   {
+      this._comite = _comite;
+   }
+
    public Alcada(com.redhat.alcada.ClassificacaoCliente classificacaoCliente,
          com.redhat.alcada.Pais pais, int vencimentoOperacao,
          double valorOperacao, boolean indicadorPossuiGarantia,
-         java.lang.String atividade)
+         java.lang.String atividade, com.redhat.alcada.Comite _comite)
    {
       this.classificacaoCliente = classificacaoCliente;
       this.pais = pais;
@@ -92,6 +104,7 @@ public class Alcada implements java.io.Serializable
       this.valorOperacao = valorOperacao;
       this.indicadorPossuiGarantia = indicadorPossuiGarantia;
       this.atividade = atividade;
+      this._comite = _comite;
    }
 
 }
