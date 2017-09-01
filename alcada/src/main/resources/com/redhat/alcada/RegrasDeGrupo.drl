@@ -36,6 +36,8 @@ ruleflow-group "Grupo"
         System.out.println("Alcada A: " + $g.get_alcada1());
         
         insert(a1);
+
+        System.out.println("Alcada A depois do insert: " + $g.get_alcada1());
         
     end
 
@@ -70,7 +72,11 @@ ruleflow-group "Grupo"
         $g.get_alcada2().setPais($maxElemento.getPais());
 
         System.out.println("Alcada B: " + $g.get_alcada2());
+        
         insert(a2);
+        
+        System.out.println("Alcada B depois do insert: " + $g.get_alcada2());
+        
         
     end
  
