@@ -1,2 +1,70 @@
 package com.redhat.alcada;
 
+import com.redhat.alcada.*;
+
+rule "encontrarMaiorValorOperacao"
+no-loop 
+
+    when
+        $g : Grupo()
+        
+        $total : Double() from accumulate (Elemento($r : valorOperacao) from $g.elementos, sum($r)) 
+        
+	    $maxElemento: Elemento() from accumulate(
+	        $sa: Elemento() from $g.elementos,        
+	        init( Elemento max = null; ),
+	        action( if( max == null || max.getValorOperacao() < $sa.getValorOperacao() ){
+	            max = $sa;
+	        } ),
+	        result( max ) )
+        
+    then
+    
+        System.out.println("Encontrado maior elemento!: " + $maxElemento.getNome());
+
+        Alcada a1 = new Alcada();
+        $g.set_alcada1(a1);
+        
+        $g.get_alcada1().setClassificacaoCliente($maxElemento.getClassificacao());
+        $g.get_alcada1().setVencimentoOperacao($maxElemento.getVencimentoOperacao());
+        $g.get_alcada1().setIndicadorPossuiGarantia(true);
+        $g.get_alcada1().setValorOperacao($total);
+        $g.get_alcada1().setPais(Pais.BRASIL);
+
+        System.out.println("Alcada A: " + $g.get_alcada1());
+        
+    end
+
+
+rule "encontrarMaiorValorOperacaoPaisNaoBrasil"
+no-loop 
+
+    when
+        $g : Grupo()
+        
+	    $maxElemento: Elemento() from accumulate(
+	        $sa: Elemento(pais != Pais.BRASIL) from $g.elementos,        
+	        init( Elemento max = null; ),
+	        action( if( max == null || max.getValorOperacao() < $sa.getValorOperacao() ){
+	            max = $sa;
+	        } ),
+	        result( max ) )
+        
+    then
+    
+        System.out.println("Encontrado maior elemento nao Brasil!: " + $maxElemento.getNome());
+
+        Alcada a2 = new Alcada();
+        $g.set_alcada2(a2);
+        
+        $g.get_alcada2().setClassificacaoCliente($maxElemento.getClassificacao());
+        $g.get_alcada2().setValorOperacao($maxElemento.getValorOperacao());
+        $g.get_alcada2().setVencimentoOperacao($maxElemento.getVencimentoOperacao());
+        $g.get_alcada2().setIndicadorPossuiGarantia(true);
+        $g.get_alcada2().setPais($maxElemento.getPais());
+
+        System.out.println("Alcada B: " + $g.get_alcada2());
+        
+    end
+ 
+    
