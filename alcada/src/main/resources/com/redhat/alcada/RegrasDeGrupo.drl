@@ -5,7 +5,7 @@ import com.redhat.alcada.*;
 rule "encontrarMaiorValorOperacao"
 no-loop 
 lock-on-active
-ruleflow-group "Grupo"
+ruleflow-group "grupo"
 
     when
         $g : Grupo()
@@ -45,7 +45,7 @@ ruleflow-group "Grupo"
 rule "encontrarMaiorValorOperacaoPaisNaoBrasil"
 no-loop 
 lock-on-active
-ruleflow-group "Grupo"
+ruleflow-group "grupo"
 
     when
         $g : Grupo()
