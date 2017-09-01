@@ -162,4 +162,12 @@ public class Alcada implements java.io.Serializable
       this._prioridadeComiteRestritivo = _prioridadeComiteRestritivo;
    }
 
+	public String toString() {
+		return "Alcada [classificacaoCliente=" + classificacaoCliente + ", pais=" + pais + ", vencimentoOperacao="
+				+ vencimentoOperacao + ", valorOperacao=" + valorOperacao + ", indicadorPossuiGarantia="
+				+ indicadorPossuiGarantia + ", atividade=" + atividade + ", _comite=" + _comite + ", _comiteRestritivo="
+				+ _comiteRestritivo + ", _comiteFinal=" + _comiteFinal + ", _prioridadeComite=" + _prioridadeComite
+				+ ", _prioridadeComiteRestritivo=" + _prioridadeComiteRestritivo + "]";
+	}
+
 }
