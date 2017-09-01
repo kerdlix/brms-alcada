@@ -33,6 +33,8 @@ no-loop
 
         System.out.println("Alcada A: " + $g.get_alcada1());
         
+        insert(a1);
+        
     end
 
 
@@ -64,6 +66,7 @@ no-loop
         $g.get_alcada2().setPais($maxElemento.getPais());
 
         System.out.println("Alcada B: " + $g.get_alcada2());
+        insert(a2);
         
     end
  
