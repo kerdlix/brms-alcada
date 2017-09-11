@@ -195,3 +195,71 @@ http://localhost:8080/kie-server/services/rest/server/containers/instances/alcad
 <fire-all-rules />
 </batch-execution>
 ```
+
+## Construção
+
+### Organizational Units
+<p align="center"><img src="/images/00.png?raw=true"></p>
+
+### Project
+<p align="center"><img src="/images/01.png?raw=true"></p>
+<p align="center"><img src="/images/02.png?raw=true"></p>
+
+### Data Object
+<p align="center"><img src="/images/10.png?raw=true"></p>
+<p align="center"><img src="/images/11.png?raw=true"></p>
+<p align="center"><img src="/images/12.png?raw=true"></p>
+<p align="center"><img src="/images/13.png?raw=true"></p>
+<p align="center"><img src="/images/14.png?raw=true"></p>
+<p align="center"><img src="/images/15.png?raw=true"></p>
+
+### Ruleflow
+<p align="center"><img src="/images/03.png?raw=true"></p>
+
+### Grupo alcadaEspecifica
+<p align="center"><img src="/images/06.png?raw=true"></p>
+
+### Grupo grupo
+<p align="center"><img src="/images/06.png?raw=true"></p>
+<p align="center"><img src="/images/07.png?raw=true"></p>
+<p align="center"><img src="/images/08.png?raw=true"></p>
+<p align="center"><img src="/images/09.png?raw=true"></p>
+
+### Grupo cartas
+<p align="center"><img src="/images/17.png?raw=true"></p>
+<p align="center"><img src="/images/18.png?raw=true"></p>
+<p align="center"><img src="/images/19.png?raw=true"></p>
+<p align="center"><img src="/images/20.png?raw=true"></p>
+<p align="center"><img src="/images/21.png?raw=true"></p>
+<p align="center"><img src="/images/22.png?raw=true"></p>
+<p align="center"><img src="/images/23.png?raw=true"></p>
+<p align="center"><img src="/images/24.png?raw=true"></p>
+<p align="center"><img src="/images/25.png?raw=true"></p>
+<p align="center"><img src="/images/26.png?raw=true"></p>
+<p align="center"><img src="/images/27.png?raw=true"></p>
+<p align="center"><img src="/images/28.png?raw=true"></p>
+<p align="center"><img src="/images/29.png?raw=true"></p>
+
+### Grupo atividadesRestritivas
+<p align="center"><img src="/images/16.png?raw=true"></p>
+
+### Grupo priorizarComite
+<p align="center"><img src="/images/30.png?raw=true"></p>
+<p align="center"><img src="/images/31.png?raw=true"></p>
+
+### Grupo calcularComite
+<p align="center"><img src="/images/04.png?raw=true"></p>
+
+### Grupo comiteGrupo
+<p align="center"><img src="/images/05.png?raw=true"></p>
+
+### Decision Server
+<p align="center"><img src="/images/32.png?raw=true"></p>
+
+### Cenários de testes
+<p align="center"><img src="/images/33.png?raw=true"></p>
+<p align="center"><img src="/images/34.png?raw=true"></p>
+<p align="center"><img src="/images/35.png?raw=true"></p>
+<p align="center"><img src="/images/36.png?raw=true"></p>
+<p align="center"><img src="/images/37.png?raw=true"></p>
+
